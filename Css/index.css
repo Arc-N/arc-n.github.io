@@ -250,5 +250,8 @@
     #text h1 {font-size: 36pt; overflow: visible;}
     #flip {width: 200px; font-size: 24pt;}
     #text h3 {font-size: 16pt; width: 400px; margin-top: 100px;}
-    #gifJoke {position: relative; margin-left: 50%; margin-top: 50%;}
+    #gifJoke {visibility: hidden}
   }
+_::-webkit-full-page-media, _:future, :root #myVideo {
+    visibility: hidden;
+}
