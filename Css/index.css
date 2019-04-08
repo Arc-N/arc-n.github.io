@@ -1,0 +1,217 @@
+#background {
+    background-blend-mode: darken;
+    background-color: black;
+    font-family: Consolas, Arial, Helvetica, sans-serif; 
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#navigation {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    background-color: #dfe5e900;
+    opacity: 0.985;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+#navigation a {
+    padding: 12px 12px 12px 32px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #999999;
+    display: block;
+    transition: 0.3s;
+}
+
+#navigation a:hover {
+    padding-left: 44px;
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #05131b00;
+}
+
+#active {
+    background-color: #05131b00;
+}
+
+#openbutton {
+    cursor: pointer;
+    font-size: 44px;
+    z-index: 101;
+    transition: 0.55s;
+    position: fixed;
+    color: #999999;
+    top: 0px;
+}
+
+
+#text {
+    font-family: Consolas, Arial, Helvetica, sans-serif; 
+    color: #999999;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin-left: 350px;
+}
+
+#text h1{
+    margin-top: 10%;
+    font-size: 48pt;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+        typing 3.5s steps(60, end),
+        blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+#container {
+    font-size: 36px;
+  }
+#flip {
+    height: 50px;
+    overflow: hidden;
+}
+#flip > div > div {
+    font-family: Consolas, Arial, Helvetica, sans-serif; 
+    color: #999999;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    height: 45px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+#flip h2{
+    font-size: 24pt;
+}
+#flip div:first-child {
+    animation: show 7s linear infinite;
+}
+@keyframes show {
+    0% {margin-top:-450px;}
+    5% {margin-top:-360px;}
+    20% {margin-top:-360px;}
+    25% {margin-top:-270px;}
+    40% {margin-top:-270px;}
+    45% {margin-top:-180px;}
+    60% {margin-top:-180px;}
+    65% {margin-top:-90px;}
+    80% {margin-top:-90px;}
+    85% {margin-top:-0px;}
+    100% {margin-top:-0px;}
+}
+#text h3{
+    font-size: 16pt;
+    margin-top: 15%;
+    margin-right: 50%;
+}
+#abtContainer{
+    width: 99%;
+    height: 100%;
+    position: absolute;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 5px, 5px, 5px, 5px;
+}
+#about {
+    font-family: Consolas, Arial, Helvetica, sans-serif; 
+    color: #d3d3d3;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin-left: 180px;
+    width: 72%;
+    font-size: 14pt;
+    float:left;
+    text-align: center;
+
+}
+#skills {
+    font-family: Consolas, Arial, Helvetica, sans-serif; 
+    color: #999999;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    width: 72%;
+    margin-left: 180px;
+    font-size: 14pt;
+    padding: 0;
+}
+#lang{
+    color: #e9bf36;
+    width: 50%;
+    display: inline-block;
+}
+#sys{
+    color: #e2793c;
+    float: right;
+    width: 50%;
+}
+#lib{
+    color: #bd4d4d;
+    width: 50%;
+    display: inline-block;
+}
+#soft{
+    color: #84df48;
+    float: right;
+    width: 50%;
+}
+#contact {
+    font-family: Consolas, Arial, Helvetica, sans-serif; 
+    color: #999999;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin-top: 10%;
+    margin-left: 15%;
+    position: absolute;
+}
+#gifJoke {
+    right: 10%;
+    top: 25%;
+    position: absolute;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.39);
+    border-radius: 8px;
+}
+#section {
+    font-family: Consolas, Arial, Helvetica, sans-serif; 
+    color: #999999;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    width: 72%;
+    margin-left: 180px;
+    margin-top: 3%;
+    padding: 10px;
+    display: inline-block;
+    border-style: none none outset none;
+    background-color: #000000ab;
+    border-width: 1px;
+}
+#ptitle {
+    font-size: 24pt;
+}
+#pimage {
+
+}
+#pdesc {
+    font-size: 14pt;
+}
+@media screen and (max-height: 450px) {
+    #navigation {
+        padding-top: 35px;
+    }
+    #navigation a {
+        font-size: 18px;
+    }
+    #navigation a:hover {
+        font-size: 22px;
+    }
+    #openbutton {
+        font-size: 32px;
+    }
+}

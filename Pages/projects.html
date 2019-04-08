@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../Css/index.css" />
+    <script src="../Javascript/index.js"></script>
+</head>
+
+</html>
+
+<body id="background">
+    <video autoplay muted loop id="myVideo">
+        <source src="../Images/BGVid.mp4" type="video/mp4">
+    </video>
+    <div id="navigation">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a id="active" href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div id="openbutton" onmouseover="hoverOn();" onmouseout="hoverOff();" onclick="navigationControl();">
+        &#10753;
+    </div>
+    <div id="section">
+        <h2 id="ptitle">Self Driving Car</h2>
+        <img id="pimage" src="../Images/CarAI_Preview.PNG">
+        <p id="pdesc">This project uses DeepQ learning, which is a type of trial and error deep learning method to
+            predict optimal controls to beat a game or achieve a certain goal in a virtual environment.
+            <br></br>Many data driven
+            deep learning methods are limited due to the amount of required pre-labeled data that needs to be provided.
+            Situations such as the self-driving cars often are impossible to be solved through data alone since the data
+            on
+            all possible ways a car can drive is massive.
+            <br></br>Deep Q learning lifts such limitations, focusing on defining
+            sets of rules through which the computer can explore a given problem on its own and collect data as well as
+            learn from it with little to no human input. This is achieved through mimicking how humans learn (Reinforced
+            learning) with how human brain works (Dense Neural Networks).</p>
+    </div>
+    <div id="section">
+        <h2 id="ptitle"></h2>
+        <img id="pimage" src="#">
+        <p id="pdesc"></p>
+    </div>
+    <div id="section">
+        <h2 id="ptitle"></h2>
+        <img id="pimage" src="#">
+        <p id="pdesc"></p>
+    </div>
+</body>
