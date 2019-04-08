@@ -196,10 +196,28 @@
     font-size: 24pt;
 }
 #pimage {
-
+    height: 30%;
+    width: 30%;
+    border-radius: 5%;
+    transition: 0.3s;
+}
+#pimage:hover {
+    height: 40%;
+    width: 40%;
+    border-radius: 1%;
 }
 #pdesc {
     font-size: 14pt;
+}
+#plink {
+    text-decoration: none;
+    color: #999999;
+    transition: 0.5s;
+}
+#plink:hover {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 16pt;
 }
 @media screen and (max-height: 450px) {
     #navigation {
