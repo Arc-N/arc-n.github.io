@@ -5,6 +5,9 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+body{
+    background-color: #dfe5e900;
+}
 #background {
     font-family: Consolas, Arial, Helvetica, sans-serif;
     display: flex;
