@@ -60,7 +60,11 @@ body{
     top: 0px;
 }
 
-
+#pdf{
+    width:1000px;
+    height:600px;
+    align-content: center;
+}
 #text {
     font-family: Consolas, Arial, Helvetica, sans-serif; 
     color: #999999;
