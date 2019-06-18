@@ -220,6 +220,14 @@ html {
     color: #ffffff;
     font-size: 16pt;
 }
+#icon {
+    width:10%;
+    height:10%;
+    position: relative;
+    border-style: none none outset none;
+    border-width: 1px;
+    border-radius: 10px;
+}
 @media screen and (max-height: 450px) {
     #navigation {
         padding-top: 35px;
