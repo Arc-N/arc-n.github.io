@@ -61,7 +61,7 @@
     font-family: Consolas, Arial, Helvetica, sans-serif; 
     color: #999999;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    margin-left: 350px;
+    margin-left: 220px;
 }
 
 #text h1{
@@ -172,9 +172,9 @@
     position: absolute;
 }
 #gifJoke {
-    left: 50%;
-    top: 180px;
-    position: relative;
+    position: fixed;
+    top:50%;
+    right:20%;
     box-shadow: 0 0 5px 5px rgba(61, 135, 204, 0.39);
     border-radius: 8px;
 }
@@ -230,4 +230,8 @@
     border-radius: 10px;
     border-color: #999999;;
     background-color: rgba(255, 255, 255, 0.24);
+}
+@media only screen and (max-width: 900px)  {
+    #text h1 {font-size: 24pt}
+    #container {font-size: 16pt}
 }
