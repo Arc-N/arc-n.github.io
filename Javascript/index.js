@@ -1,7 +1,7 @@
 function navigationControl() {
     if (document.getElementById("navigation").style.width != "180px") {
         document.getElementById("navigation").style.width = "180px";
-        document.getElementById("openbutton").style.marginLeft = "140px";
+        document.getElementById("openbutton").style.marginLeft = "125px";
         document.getElementById("openbutton").style.color = "#999999";
         document.getElementById("openbutton").style.transform = "rotate(45deg)";
     } else {
