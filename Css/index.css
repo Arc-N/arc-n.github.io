@@ -1,5 +1,6 @@
 html {
-    background: url("../Images/BGVid.gif") no-repeat center center fixed; 
+    /*background: url("../Images/BGVid.gif") no-repeat center center fixed;*/
+    background-color: #dfe5e900;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
