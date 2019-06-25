@@ -1,12 +1,18 @@
 #background {
     font-family: Consolas, Arial, Helvetica, sans-serif;
     display: flex;
-    background-image: url("../Images/BG.PNG")
+    background-image: url("../Images/BG.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #wrapper {
     width: 100%;
     height: 100%;
-    background-image: url("../Images/BG.PNG")
+    background-image: url("../Images/BG.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #navigation {
     height: 100%;
