@@ -21,8 +21,6 @@
     z-index: 50;
     top: 0;
     left: 0;
-    background-color: #05131b;
-    opacity: 0.985;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
